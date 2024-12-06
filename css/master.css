@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: arvo;
+    src: url("../font/arvo.ttf") format("opentype");
+  }
+
+
+  @layer components{
+    .row{
+      @apply flex flex-wrap
+    }
+    .center{
+      @apply justify-center items-center
+    }
+    .buttom{
+      @apply w-[190px] h-11 row center rounded-lg bg-teal-700 text-white hover:bg-teal-900 font-bold uppercase
+    }
+    .title{
+      @apply text-teal-800 text-[60px] font-bold capitalize
+    }
+    .p{
+      @apply text-stone-600 text-xl pt-3
+    }
+  }
