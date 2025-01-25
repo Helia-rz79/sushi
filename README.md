@@ -1,5 +1,5 @@
 # sushi
-**😊If you have a lot of information to display on your site, why don't you use my accordion menu**
+
 
 ![10](https://github.com/user-attachments/assets/6fb1b571-075c-4eb1-a3fa-cce955ba454b)
 
